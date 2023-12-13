@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="headerContainer">
+        <div class="leftSideHeader">
+            <h1>Video Player</h1>
+        </div>
+
+        <div class="rightSideHeader">
+            <ul class="unorderedHeader">
+                <li><a href="#developers">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h3 class="videoHeading">Video Player</h3>
+    <div class="videoContainer">      
+
+       
+
+            <div class="main-video-container">
+               <video src="./videos/Overdue.mp4" loop controls class="main-video"></video>
+               <h3 class="main-vid-title">OverDue</h3>
+            </div>
+         
+            <div class="video-list-container">
+         
+               <div class="list active">
+                  <video src="./videos/Overdue.mp4" class="list-video"></video>
+                  <h3 class="list-title">OverDue</h3>
+               </div>
+         
+               <div class="list">
+                  <video src="./videos/Metro Boomin, Travis Scott, Young Thug - Trance (Visualizer).mp4" class="list-video"></video>
+                  <h3 class="list-title">Trance</h3>
+               </div>
+         
+               <div class="list">
+                  <video src="./videos/Rae Sremmurd - Black Beatles ft. Gucci Mane (Official Video).mp4" class="list-video"></video>
+                  <h3 class="list-title">Black Beatles</h3>
+               </div>
+         
+               <div class="list">
+                  <video src="./videos/Metro Boomin, NAV, A Boogie wit da Hoodie, Swae Lee - Calling.mp4" class="list-video"></video>
+                  <h3 class="list-title">Calling</h3>
+               </div>
+         
+               <div class="list">
+                  <video src="./videos/Travis Scott - HIGHEST IN THE ROOM (Official Music Video).mp4" class="list-video"></video>
+                  <h3 class="list-title">Highest In the Room</h3>
+               </div>         
+            </div>
+         
+         
+         
+    </div>
+    <h2 class="developerText" id="developers">Developed by</h2>
+    <div class="developers">
+        
+        <div class="developersLeft">
+            <img class="developersImage" src="./images/3691028.jpg"/>
+        </div>
+
+        <div class="developersRight">
+            
+            <ul class="developersUL">
+                <li class="developersLI">Devyani Gharad</li>
+                <li class="developersLI">Dhani Rathod</li>
+                <li class="developersLI">Diya Choudhari</li>
+                <li class="developersLI">Riddhi Nahate</li>
+                <li class="developersLI">Anshul Raut</li>
+                <li class="developersLI">Ayush Motikar</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <h3 class="footerH3" id="contact">For any query contact: vaishgharad@gmail.com</h3>
+    </div>
+    <script src="./index.js">
+        
+        
+        </script>
+
+</body>
+</html>
+
+<!-- let listVideo = document.querySelectorAll('.video-list .vid')
+    let mainVideo = document.querySelector('.main-video video')
+    let title = document.querySelector('.main-video .title')
+    let currentVideo = document.querySelector('.main-video video');
+
+    currentVideo.controls = true;
+    currentVideo.load();
+
+    console.log(listVideo)
+
+    listVideo.forEach(video => {
+        video.onClick = () => {
+            listVideo.forEach(vid => vid.classList.remove('active'));
+            video.classList.add('active');
+            if(video.classList.contains('active')){
+                let src = video.children[0].getAttribute('src');
+                mainVideo.src = src;
+                let text = video.children[1].innerHTML;
+                title.innerHTML = text;
+            };
+        };
+    }); -->
