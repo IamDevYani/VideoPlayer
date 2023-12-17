@@ -149,10 +149,13 @@ a:hover{
     height: 50vh;
     margin-left: 25%;
     margin-right: 25%;
+    
 }
 
 .developersRight{
     display: flex;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .develoeprsRight > h2{
@@ -176,6 +179,7 @@ a:hover{
 .developerText{
     text-align: center;
     font-size: 3rem;
+    margin-top: 50px;
 }
 
 
@@ -220,4 +224,29 @@ a:hover{
 
 .footerH3{
     padding-top: 10px;
+}
+
+.aboutSection{
+   border: 2px solid ;
+   box-shadow: 30px 30px lightblue;
+  padding: 10px;
+   margin-left: 550px;
+   margin-right: 500px;
+   font-size: 2cqb;
+   margin-bottom: 50px;
+}
+
+/* .aboutSection:hover{
+   margin-top: 100px;
+   box-shadow: none;
+} */
+
+#aboutS:hover{
+   margin-left: 600px;
+   margin-right: 450px;
+   margin-top: 110px;
+   box-shadow: none;
+}
+.aboutUsHeading{
+   text-align: center;
 }
