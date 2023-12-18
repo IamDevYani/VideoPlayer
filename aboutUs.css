@@ -2,7 +2,9 @@
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     row-gap: 50px;
-    margin: 30px auto;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 100px;
 }
 
 .profileOne{
@@ -10,16 +12,17 @@
 }
 
 .dummyImage{
-    width: 2150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    border: 2px dotted;
+    border: 1px solid;
 }
 
 .nameOfDeveloper{
     margin-top: 20px;
     border: 2px solid;
     width: 10vw;
+    font-size: 10px;
     text-align: center;
     box-shadow: 10px 10px lightblue;
 }
