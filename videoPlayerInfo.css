@@ -1,0 +1,23 @@
+
+.aboutSection{
+    border: 2px solid ;
+    box-shadow: 30px 30px lightblue;
+    margin: 80px 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+ 
+ 
+ #aboutS:hover{
+    margin-left: 440px;
+    margin-right: 380px;
+    margin-top: 100px;
+    box-shadow: none;
+ }
+ .aboutUsHeading{
+    text-align: center;
+ }
+
+.footer{
+    margin-top: 200px;
+}
